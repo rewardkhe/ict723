@@ -1,0 +1,84 @@
+body{
+color: aliceblue;
+background-color: rgb(27, 27, 27);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding: 0px;
+margin: 0px;
+}
+
+.header{
+    padding: 1px 0px 10px 0px;
+    background-color: #000000;
+    left: 0;
+    right: 0;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+h4 {
+    margin: 5px 0px;
+}
+.main_body{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 30px 7% 10px;
+    margin: 0px;
+    /* max-width: 80%; */
+    /* align-content: center; */
+    
+
+}
+
+
+#table_1{
+    border-collapse: collapse;
+    margin:0px 30px;
+
+}
+
+#div_1{
+    margin: 0px 40px;
+}
+
+td,th {
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    /* min-width: 100px; */
+    border-style: solid;
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #000000;
+    color: aliceblue;
+    text-align: center;
+    position: fixed;
+ 
+
+}
+  
+#footer_table{
+    /* all the properties are overlapped by " #main_body table,td,th "'s' property. */
+    border: 1px solid rgb(128, 105, 255);
+    border-collapse: collapse;
+    width: 700px;
+    border-style: solid;
+    margin: 15px auto 5px;
+
+  }
