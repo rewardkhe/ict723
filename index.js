@@ -36,7 +36,7 @@
      }
     
  function display_c7(){
-    var refresh=5000; // Refresh rate in milli seconds
+    var refresh=1000; // Refresh rate in milli seconds
     mytime=setTimeout('display_ct7()',refresh)
     }
     display_c7()
